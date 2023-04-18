@@ -5,6 +5,7 @@ WORKDIR /myapp
 ADD . /myapp
 
 RUN bundle install
+RUN rails db:create
 
 # Add a script to be executed every time the container starts.
 COPY entrypoint.sh /usr/bin/
