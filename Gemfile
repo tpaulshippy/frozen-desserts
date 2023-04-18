@@ -74,4 +74,7 @@ end
 
 gem "pg"
 gem "bundler-audit"
+gem "brakeman"
+gem "rubocop"
+gem "rubocop-rails"
 
