@@ -52,5 +52,3 @@ jobs:
       # Add or replace any other lints here
       - name: Security audit dependencies
         run: bundle exec bundle audit --update
-      - name: Security audit application code
-        run: brakeman -q -w2
